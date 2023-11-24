@@ -81,7 +81,7 @@ color: #eee;
 }
 
 iframe{
-    width: 427%;
+    width: 327%;
 }
 
 /* .sidebar .dropdown-item:hover{
@@ -90,6 +90,12 @@ iframe{
 }  */
 
 @media(max-width:767px){
+    .Dashboard-content{
+        position: fixed;
+        margin-top: 59px;
+        margin-left:-160px;
+    }
+    
     #side_nav{
         margin-left:-250px;
         position: fixed;
